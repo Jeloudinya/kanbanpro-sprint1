@@ -1,0 +1,23 @@
+<h2>Dashboard</h2>
+
+<form action="/nueva-tarjeta" method="POST">
+    <input type="text" name="title" placeholder="Nueva tarea" required>
+    <button type="submit">Agregar</button>
+</form>
+
+<div style="display:flex; gap:20px; margin-top:20px;">
+{{#each boards}}
+  {{#each lists}}
+    <div style="border:1px solid black; padding:10px; width:200px;">
+      <h3>{{name}}</h3>
+
+      {{#each cards}}
+        <div style="background:#eee; margin:5px 0; padding:5px;">
+          {{title}}
+        </div>
+      {{/each}}
+
+    </div>
+  {{/each}}
+{{/each}}
+</div>

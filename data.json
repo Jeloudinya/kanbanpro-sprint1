@@ -1,0 +1,24 @@
+{
+  "boards": [
+    {
+      "name": "Proyecto Principal",
+      "lists": [
+        {
+          "name": "Pendientes",
+          "cards": [
+            { "title": "Diseñar interfaz" },
+            { "title": "Configurar servidor" }
+          ]
+        },
+        {
+          "name": "En Proceso",
+          "cards": []
+        },
+        {
+          "name": "Completadas",
+          "cards": []
+        }
+      ]
+    }
+  ]
+}
